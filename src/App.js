@@ -20,36 +20,7 @@ const App = () =>{
         ...preValue,
         [name] : value,
       }
-      /* if(name === 'firstName'){
-        return{
-          firstName : value,
-          lastName : preValue.lastName,
-          email : preValue.email,
-          mobile : preValue.mobile,
-        }
-      }else if(name === 'lastName'){
-        return{
-          firstName : preValue.firstName,
-          lastName : value,
-          email : preValue.email,
-          mobile : preValue.mobile,
-        }
-      } else if(name === 'email'){
-        return{
-          firstName : preValue.firstName,
-          lastName : preValue.lastName,
-          email : value,
-          mobile : preValue.mobile,
-        }
-      }else if(name === 'mobile'){
-        return{
-          firstName : preValue.firstName,
-          lastName : preValue.lastName,
-          email : preValue.email,
-          mobile : value,
-        }
-      } */
-    })
+         })
   }
 
   const onSubmits = (event) =>{
